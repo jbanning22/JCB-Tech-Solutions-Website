@@ -1,0 +1,32 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink: #08080f;
+  --ink-2: #38384a;
+  --ink-3: #888899;
+  --surface: #ffffff;
+  --surface-2: #f5f4f1;
+  --surface-3: #eeedea;
+  --accent: #1a1aff;
+  --accent-light: #ebebff;
+  --accent-mid: #5555ff;
+  --green: #00c896;
+  --green-light: #e0fff6;
+  --border: rgba(8,8,15,0.09);
+  --radius: 20px;
+  --radius-sm: 12px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--accent-light); color: var(--accent); }
