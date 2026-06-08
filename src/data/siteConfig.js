@@ -33,15 +33,15 @@ export const siteConfig = {
       icon: '🤖',
       title: 'AI Automation Systems',
       desc: 'We design and deploy AI agents that handle your repetitive tasks — lead follow-ups, data entry, scheduling, customer responses — so your team focuses on growth.',
-      price: 'Starting at $800',
-      retainer: '+ $350/mo retainer',
+      price: 'Starting at $500',
+      retainer: '+ $250/mo retainer',
     },
     {
       icon: '💬',
       title: 'Custom AI Chatbots',
       desc: 'Trained on your business data, your chatbot handles customer inquiries 24/7, books appointments, qualifies leads, and integrates directly with your existing tools.',
-      price: 'Starting at $1,200',
-      retainer: '+ $400/mo retainer',
+      price: 'Starting at $1,000',
+      retainer: '+ $300/mo retainer',
     },
     {
       icon: '⚡',
@@ -62,7 +62,7 @@ export const siteConfig = {
       title: 'AI Content & SEO Systems',
       desc: 'We build AI-powered content pipelines that generate, schedule, and publish SEO-optimized blog posts, social media, and email campaigns — consistently, at scale.',
       price: 'Starting at $500',
-      retainer: '+ $300/mo retainer',
+      retainer: '+ $250/mo retainer',
     },
     {
       icon: '🔗',
