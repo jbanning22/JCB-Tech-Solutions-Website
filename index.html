@@ -1,60 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="JCB Tech Solutions — AI-powered automation, custom chatbots, and software systems for small businesses. Replace manual work with intelligent technology." />
-    <meta name="keywords" content="AI automation, chatbot development, business automation, workflow automation, small business software, Delaware, New Jersey, Pennsylvania" />
-    <meta property="og:title" content="JCB Tech Solutions | AI-Powered Business Software" />
-    <meta property="og:description" content="We build AI agents, chatbots, and automation systems that save small businesses 10+ hours a week." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jcbtechsolutions.com" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="JCB Tech Solutions | AI-Powered Business Software" />
-    <meta name="twitter:description" content="AI agents, chatbots, and automation for small businesses." />
-    <link rel="canonical" href="https://jcbtechsolutions.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..800;1,14..32,300..800&display=swap" rel="stylesheet" />
-    <title>JCB Tech Solutions | AI-Powered Business Software</title>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "JCB Tech Solutions",
-      "description": "AI-powered automation, chatbots, and software systems for small businesses.",
-      "url": "https://jcbtechsolutions.com",
-      "telephone": "",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "DE",
-        "addressCountry": "US"
-      },
-      "areaServed": ["Delaware", "New Jersey", "Pennsylvania"],
-      "serviceType": ["AI Automation", "Chatbot Development", "Website Design", "Workflow Automation"]
-    }
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="JCB Tech Solutions — AI-powered automation, custom chatbots, and software systems for small businesses. Replace manual work with intelligent technology."
+        />
+        <meta
+            name="keywords"
+            content="AI automation, chatbot development, business automation, workflow automation, small business software, Delaware, New Jersey, Pennsylvania"
+        />
+        <meta
+            property="og:title"
+            content="JCB Tech Solutions | AI-Powered Business Software"
+        />
+        <meta
+            property="og:description"
+            content="We build AI agents, chatbots, and automation systems that save small businesses 10+ hours a week."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jcbtechsolutions.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="JCB Tech Solutions | AI-Powered Business Software"
+        />
+        <meta
+            name="twitter:description"
+            content="AI agents, chatbots, and automation for small businesses."
+        />
+        <link rel="canonical" href="https://jcbtechsolutions.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..800;1,14..32,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <title>JCB Tech Solutions | AI-Powered Business Software</title>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "JCB Tech Solutions",
+                "description": "AI-powered automation, chatbots, and software systems for small businesses.",
+                "url": "https://jcbtechsolutions.com",
+                "telephone": "",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "DE",
+                    "addressCountry": "US"
+                },
+                "areaServed": ["Delaware", "New Jersey", "Pennsylvania"],
+                "serviceType": [
+                    "AI Automation",
+                    "Chatbot Development",
+                    "Website Design",
+                    "Workflow Automation"
+                ]
+            }
+        </script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
 
-    <!-- Voiceflow Chat Widget -->
-    <script type="text/javascript">
-      (function(d, t) {
-        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        v.onload = function() {
-          window.voiceflow.chat.load({
-            verify: { projectID: '6a27809bdcea71bc49a9b99f' },
-            url: 'https://general-runtime.voiceflow.com',
-            versionID: 'production',
-          });
-        }
-        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
-        v.type = "text/javascript";
-        s.parentNode.insertBefore(v, s);
-      })(document, 'script');
-    </script>
-  </body>
+        <!-- Voiceflow Chat Widget -->
+        <script type="text/javascript">
+            (function (d, t) {
+                var v = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                v.onload = function () {
+                    window.voiceflow.chat.load({
+                        verify: { projectID: "6a21c50dd622f34c2ff92828" },
+                        url: "https://general-runtime.voiceflow.com",
+                        versionID: "production",
+                        launch: { event: { type: "launch", payload: {} } },
+                    });
+                };
+                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+                v.type = "text/javascript";
+                s.parentNode.insertBefore(v, s);
+            })(document, "script");
+        </script>
+    </body>
 </html>
