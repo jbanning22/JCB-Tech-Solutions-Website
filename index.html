@@ -75,11 +75,12 @@
                     window.voiceflow.chat.load({
                         verify: { projectID: "6a21c50dd622f34c2ff92828" },
                         url: "https://general-runtime.voiceflow.com",
-                        versionID: "production",
-                        launch: { event: { type: "launch", payload: {} } },
+                        voice: {
+                            url: "https://runtime-api.voiceflow.com",
+                        },
                     });
                 };
-                v.src = "https://cdn.voiceflow.com/widget/bundle.mjs";
+                v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
                 v.type = "text/javascript";
                 s.parentNode.insertBefore(v, s);
             })(document, "script");
