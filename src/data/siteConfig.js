@@ -37,6 +37,13 @@ export const siteConfig = {
       retainer: '+ $250/mo retainer',
     },
     {
+      icon: '🌐',
+      title: 'Website Design & Development',
+      desc: 'We build fast, professional websites for small businesses — from simple landing pages to full multi-page sites. Mobile-first, SEO-ready, and designed to turn visitors into paying customers. You own everything.',
+      price: 'Starting at $1,500',
+      retainer: '+ $250/mo maintenance',
+    },
+    {
       icon: '💬',
       title: 'Custom AI Chatbots',
       desc: 'Trained on your business data, your chatbot handles customer inquiries 24/7, books appointments, qualifies leads, and integrates directly with your existing tools.',
@@ -49,13 +56,6 @@ export const siteConfig = {
       desc: 'Connect your apps and eliminate manual work. We build Make, Zapier, and n8n pipelines that sync CRMs, emails, invoices, and reports automatically.',
       price: 'Starting at $600',
       retainer: '+ $200/mo retainer',
-    },
-    {
-      icon: '🌐',
-      title: 'Website Design & Development',
-      desc: 'Fast, conversion-focused websites built to rank and convert. From landing pages to full business sites — built clean, mobile-first, and handed off with full ownership.',
-      price: 'Starting at $1,500',
-      retainer: '+ $250/mo maintenance',
     },
     {
       icon: '📊',
